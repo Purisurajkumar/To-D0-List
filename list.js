@@ -18,7 +18,7 @@ function showitem(){
      itembox.appendChild(itemboxtext)
      itembox.appendChild(deletebutton)
      document.body.appendChild(itembox)
-    //  document.body.insertBefore(itembox,document.body.childNodes[2])
+     document.body.insertBefore(itembox,document.body.childNodes[2])
 }
 function out(index){
     array.splice(index, 1)
